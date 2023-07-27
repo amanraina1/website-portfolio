@@ -38,23 +38,22 @@ h1{
     position: absolute;
     font-size: 10rem;
     top: 15rem;
-    left: 50%;
-    transform: translateX(-50%) ;
     letter-spacing: 4px;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* section{
+section{
     background-color: rgb(45, 45, 45);
     color: white;
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .sec-heading{
-    font-size: 5rem;
-    padding: 0 10rem;
-}
+font-size: 5rem;
+padding: 0 10rem;
+    }
+
 .text{
     font-size: 1.5rem;
     padding: 0 10rem;
@@ -64,19 +63,33 @@ h1{
 .bg{
     position: relative;
     width: 100%;
-    background-attachment: fixed;
     height: 500px;
-} */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
 
 .bg1{
-    border: 1px solid white;
-    background-image: url(sport1.jpg);
+    background-image: url(images/sport1.jpg);
 }
 .bg2{
-    border: 1px solid white;
-    background-image: url(sport2.jpg);
+    background-image: url(images/sport2.jpg);
+
 }
 .bg3{
-    border: 1px solid white;
-    background-image: url(sport3.jpg);
+    background-image: url(images/sport3.jpg);
+
 }
+
+.desc{
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+

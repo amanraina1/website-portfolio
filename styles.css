@@ -56,7 +56,8 @@ padding: 0 10rem;
 
 .text{
     font-size: 1.5rem;
-    padding: 0 10rem;
+    text-align: left;
+    padding: 0 1rem;
     margin: 5rem 0;
 }
 

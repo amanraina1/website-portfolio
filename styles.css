@@ -75,11 +75,16 @@ padding: 0 10rem;
 }
 .bg2{
     background-image: url(images/sport2.jpg);
-
 }
 .bg3{
     background-image: url(images/sport3.jpg);
 
+}
+.bg4{
+    background-image: url(images/sport4.jpg);
+}
+.bg5{
+    background-image: url(images/sport5.jpg);
 }
 
 .desc{
@@ -91,4 +96,44 @@ padding: 0 10rem;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+.footer{
+  
+}
+.foot-panel1{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.foot-panel2{
+    margin-top: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel3{
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.pages a{
+    padding-right: 14px;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright1{
+    padding-top: 8px;
+}
+.copyright2{
+    padding-top: 8px;
+}
